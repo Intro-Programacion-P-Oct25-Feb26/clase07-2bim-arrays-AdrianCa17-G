@@ -44,8 +44,8 @@ public class ArrayList02 {
         
     }
     
-    public static String convertirMayusculas(String c){
-        String miValor = c.toUpperCase();
+    public static String convertirMayusculas(String pais){
+        String miValor = pais.toUpperCase();
         return miValor;
     }
         
