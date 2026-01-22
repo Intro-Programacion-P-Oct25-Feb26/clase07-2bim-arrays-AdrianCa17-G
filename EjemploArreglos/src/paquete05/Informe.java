@@ -11,11 +11,13 @@ import paquete04.Operacion;
  */
 public class Informe {
     
+    
+    /* */
     public static int obtenerTotalDia(int [][] pedidos, int dia){
         
         int suma = 0;
         for (int i = 0; i < pedidos.length; i++) {
-            suma = suma + pedidos[i][dia-1];
+            suma = suma + pedidos[i][2];
         }
         return suma;
     }
